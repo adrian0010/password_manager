@@ -145,7 +145,7 @@ public class HelloApplication extends Application {
             add_grid.setHgap(10);
             Scene add_scene = new Scene(add_grid,500,500);
             Button add_back = new Button("Back");
-            Button add_add_password = new Button("Add Password");
+            Button add_add_password = new Button("Save Password");
             Text add_site = new Text("Site");
             TextField add_site_input = new TextField();
             Text add_username = new Text("Username");
