@@ -54,6 +54,7 @@ public class InputDevice {
         }
         return null;
     }
+
     public ArrayList<Password> encryptReadPasswords() throws IOException{
         try {
             FileInputStream fileInputStream = new FileInputStream("passwords.txt");
@@ -76,6 +77,4 @@ public class InputDevice {
         }
         return null;
     }
-
-
 }
