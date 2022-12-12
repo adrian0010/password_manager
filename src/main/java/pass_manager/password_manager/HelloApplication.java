@@ -382,6 +382,7 @@ public class HelloApplication extends Application {
                             login_status.setTextFill(Color.RED);
                         }
                     } catch (IOException e) {
+                        login_status.setText("No account created");
                         e.printStackTrace();
                     }
                 }
