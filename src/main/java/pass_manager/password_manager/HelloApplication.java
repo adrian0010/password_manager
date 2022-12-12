@@ -301,7 +301,7 @@ public class HelloApplication extends Application {
             generator_generate.setOnAction(new EventHandler<ActionEvent>() {
                 @Override
                 public void handle(ActionEvent actionEvent) {
-                    generator_password_text.setText(PasswordGenerator.password_generator());
+                    generator_password_text.setText(PasswordGenerator.password_generator(16));
                 }
             });
 
